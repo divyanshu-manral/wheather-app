@@ -1,0 +1,111 @@
+body{
+  height:100vh;
+  width:100vw;
+  background-color:#E6E6E7;
+  margin:0;
+}
+
+#root{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  width:350px;
+  background:linear-gradient(to bottom,#6cc1ee,#c5e1f5);
+  border-radius:0.5rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px;
+  color:white;
+}
+
+.search-box{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:white;
+  border-radius:0.5rem;
+  width:100%;
+  height:40px;
+}
+
+.search-box input{
+  border:none;
+  font-size:16px;
+  margin-left:10px;
+  outline:none;
+}
+
+.search-box button{
+  border:none;
+  background:#0D73E0;
+  color:white;
+  height:80%;
+  width:90px;
+  border-radius:0.6rem;
+  cursor:pointer;
+  margin-right:5px;
+}
+
+.card{
+  background-color:#FAFCFD;
+  width:100%;
+  margin-top:20px;
+  border-radius:1.5rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:#083153;
+  padding:15px;
+}
+
+.city-div{
+  width:100%;
+  border-bottom:2px solid rgb(228,227,227);
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.temp-div{
+  width:100%;
+  border-bottom:2px solid rgb(228,227,227);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:10px 0;
+}
+
+.temp{
+  font-size:40px;
+}
+
+.weather-details{
+  width:100%;
+  display:flex;
+  margin-top:10px;
+}
+
+.humidity,
+.wind{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.humidity{
+  border-right:2px solid rgb(228,227,227);
+}
+
+.error{
+  color:red;
+}
+
+.placeholder{
+  color:#083153;
+}
